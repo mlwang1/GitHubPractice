@@ -1,9 +1,9 @@
 # Git Notes
 
 ### Creating repo
-```
+``` sh
 $ touch README.md
-$ git init
+$ git init # initialize git repo
 $ git add REAME.md
 $ git commit -m "first commit"
 $ git remote add origin [url]
@@ -12,8 +12,8 @@ $ git push -u origin master
 ```
 
 ### Adding repo with changes
-```
-$ git add.
+``` sh
+$ git add . # add everything that has changed
 $ git commit -m "changes"
 $ git push
 # enter username and password
