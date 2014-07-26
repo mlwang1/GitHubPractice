@@ -14,6 +14,7 @@ $ git push -u origin master
 ### Adding repo with changes
 ``` sh
 $ git add . # add everything that has changed
+$ git add -u # when you have deleted a local file you want to remove from your repo
 $ git commit -m "changes"
 $ git push
 # enter username and password
